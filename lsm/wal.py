@@ -2,7 +2,7 @@ import os
 from typing import List
 
 class WAL:
-    def __init__(self, file_path: str = "wal.log"):
+    def __init__(self, file_path: str = "data/wal.log"):
         self.file_path = file_path
         if not os.path.exists(self.file_path):
             open(self.file_path, 'w').close()
