@@ -39,6 +39,7 @@ The CLI supports the following commands:
 
 - `put <key> <value>` - Store a key-value pair
 - `get <key>` - Retrieve a value by key
+- 
 - `delete <key>` - Remove a key-value pair
 - `exit` - Exit the CLI
 
